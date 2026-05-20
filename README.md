@@ -23,7 +23,7 @@
 
 ## 中文简介
 
-`Claude Code Status Glow` 会在你的整个屏幕边缘显示动态边缘光，实时反映 Claude Code 当前状态，类似Siri的唤醒动画
+`Claude Code Status Traffic Lights` 会在你的整个屏幕边缘显示动态边缘光，实时反映 Claude Code 当前状态，类似Siri的唤醒动画
 就像是红绿灯一样显眼
 不用来回切终端，不用盯日志，一眼就知道 AI 在忙、在等你，还是在摸鱼（不是，是在 idle）。
 
@@ -44,7 +44,7 @@
 
 ## English Overview
 
-`Claude Code Status Glow` adds an animated glow around the entire screen edge and reflects Claude Code state in real time.  
+`Claude Code Status Traffic Lights` adds an animated glow around the entire screen edge and reflects Claude Code state in real time.  
 No more terminal peeking every 10 seconds. Your screen tells you what Claude is doing.
 
 ### Color Map
