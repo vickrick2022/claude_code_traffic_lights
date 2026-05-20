@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(swift build *)",
+      "Bash(swift run *)",
+      "Bash(.build/arm64-apple-macosx/debug/ClaudeStatusGlow)",
+      "Bash(./scripts/set-status.sh running *)",
+      "Bash(./scripts/set-status.sh needs_confirmation)",
+      "Bash(./scripts/set-status.sh idle *)",
+      "WebFetch(domain:share.google)",
+      "Bash(pkill -f ClaudeStatusGlow)",
+      "WebSearch",
+      "Bash(chmod +x *)",
+      "Bash(nohup /Users/lucas.deng/Desktop/code/claudecode-status-glow-mac/.build/release/ClaudeStatusGlow *)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); hooks=d.get\\('hooks',{}\\); [print\\(f'{k}: {len\\(v\\)} group\\(s\\)'\\) for k,v in hooks.items\\(\\)]\")",
+      "Bash(awk '{print \"PID:\", $2, \"CPU:\", $3\"%\", \"MEM:\", $4\"%\"}')",
+      "Bash(awk '{print \"CPU:\", $3\"%\"}')"
+    ]
+  }
+}
