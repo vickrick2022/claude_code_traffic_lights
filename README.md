@@ -1,4 +1,4 @@
-# Claude Code Status Glow for macOS
+# Claude Code Status traffic lights for macOS
 
 <p align="center">
   <b>你的CC红绿灯</b><br/>
@@ -86,8 +86,8 @@ No more terminal peeking every 10 seconds. Your screen tells you what Claude is 
 ### 1) Clone and build
 
 ```bash
-git clone https://github.com/vickrick2022/claudecode-status-glow-light.git ~/claudecode-status-glow-mac
-cd ~/claudecode-status-glow-mac
+git clone https://github.com/vickrick2022/claude_code_traffic_lights.git ~/claude_code_traffic_lights
+cd ~/claude_code_traffic_lights
 swift build -c release
 ```
 
@@ -95,7 +95,7 @@ swift build -c release
 
 ```bash
 pkill -f ClaudeStatusGlow 2>/dev/null
-cd ~/claudecode-status-glow-mac
+cd ~/claude_code_traffic_lights
 .build/release/ClaudeStatusGlow & disown
 ./install.sh
 ```
@@ -116,7 +116,7 @@ cat > ~/.claude/commands/glow.md << 'SKILL'
 ### start
 执行：
 - `pkill -f ClaudeStatusGlow 2>/dev/null`
-- `cd ~/claudecode-status-glow-mac`
+- `cd ~/claude_code_traffic_lights`
 - `swift build -c release`
 - `.build/release/ClaudeStatusGlow & disown`
 - `./install.sh`
@@ -124,7 +124,7 @@ cat > ~/.claude/commands/glow.md << 'SKILL'
 ### stop
 执行：
 - `pkill -f ClaudeStatusGlow 2>/dev/null`
-- `~/claudecode-status-glow-mac/uninstall.sh`
+- `~/claude_code_traffic_lights/uninstall.sh`
 
 ### status
 执行：
@@ -205,9 +205,9 @@ SKILL
 ## Uninstall
 
 ```bash
-~/claudecode-status-glow-mac/uninstall.sh
+~/claude_code_traffic_lights/uninstall.sh
 rm ~/.claude/commands/glow.md
-rm -rf ~/claudecode-status-glow-mac
+rm -rf ~/claude_code_traffic_lights
 ```
 
 ---
@@ -218,7 +218,7 @@ rm -rf ~/claudecode-status-glow-mac
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vickrick2022/claudecode-status-glow-light&type=Date)](https://www.star-history.com/#vickrick2022/claudecode-status-glow-light&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=vickrick2022/claude_code_traffic_lights&type=Date)](https://www.star-history.com/#vickrick2022/claude_code_traffic_lights&Date)
 
 ---
 
